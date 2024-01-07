@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+admin.site.site_header = "Мой проект"
+admin.site.site_title = "Мой первый проект"
+admin.site.index_title = "Добро пожаловать в Мой проект"
